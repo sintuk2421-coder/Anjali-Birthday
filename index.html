@@ -1,0 +1,154 @@
+
+
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#080808">
+  <meta name="description" content="A beautiful birthday surprise made with love.">
+  <title>Happy Birthday, My Special One ❤️</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="stars" id="stars"></div>
+  <div class="gold-orb orb-one"></div>
+  <div class="gold-orb orb-two"></div>
+
+  <header class="topbar">
+    <a class="brand" href="#home">WITH <span>LOVE</span> ♡</a>
+    <span class="top-note">MADE JUST FOR YOU</span>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="eyebrow"><span></span> A LITTLE SURPRISE FOR YOU <span></span></div>
+
+      <p class="pre-title">Today is all about you</p>
+
+      <!-- अपना नाम बदलने के लिए नीचे YOUR NAME बदलें -->
+      <h1>Happy Birthday,<br>
+        <span class="gold-text" id="heroName">Anjali</span>
+      </h1>
+
+      <p class="hero-message">
+        दुनिया की सबसे प्यारी मुस्कान अंजली के नाम,<br>
+        आज का दिन तुम्हारे लिए उतना ही खूबसूरत हो<br>
+        जितनी खूबसूरत तुम मेरी दुनिया बनाती हो।
+      </p>
+
+      <div class="hero-actions">
+        <button class="gold-button" id="surpriseBtn">
+          Open Your Surprise <span>♡</span>
+        </button>
+        <a class="text-link" href="#memories">Our Little World ↓</a>
+      </div>
+
+      <div class="scroll-hint">SCROLL TO FEEL THE LOVE</div>
+    </section>
+
+    <section class="letter-section reveal" id="letter">
+      <div class="section-label">01 — A LETTER FOR YOU</div>
+      <div class="letter-card">
+        <div class="heart-icon">♡</div>
+        <p class="script-text">To My Special One</p>
+        <h2>तुम्हारे नाम,<br><span class="gold-text">दिल की एक बात...</span></h2>
+
+        <p class="letter-copy" id="letterMessage">
+          तेरी जिंदगी में खुशियों की बहार हो,
+तेरे हर सपने का खूबसूरत संसार हो।
+जन्मदिन पर बस यही दुआ है मेरी,
+तेरे चेहरे पर हमेशा प्यारी-सी मुस्कान हो। 🎂✨
+        </p>
+
+        <p class="signature">Always wishing the best for you <span>♥</span></p>
+      </div>
+    </section>
+
+    <section class="memories-section reveal" id="memories">
+      <div class="section-label">02 — OUR LITTLE WORLD</div>
+      <h2 class="section-heading">Beautiful <span class="gold-text">Memories</span></h2>
+      <p class="section-description">हर तस्वीर एक कहानी, हर पल एक एहसास।</p>
+
+      <div class="photo-grid">
+        <!-- images/your-photo-1.jpg से पहली फोटो बदलें -->
+        <figure class="photo-card photo-tall">
+          <img src="images/image.html/photo 1.jpeg"
+               alt="हमारी पहली याद"
+               onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'">
+          <div class="photo-placeholder"><span>♡</span><p>अपनी पसंदीदा फोटो यहाँ लगाएँ</p></div>
+          <figcaption> ✨</figcaption>
+        </figure>
+
+        <figure class="photo-card">
+          <img src="images/image.html/image1.html/photo 2.jpeg"
+               alt="एक खूबसूरत पल"
+               onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'">
+          <div class="photo-placeholder"><span>✦</span><p>एक खूबसूरत पल</p></div>
+          <figcaption>A moment to remember</figcaption>
+        </figure>
+
+        <figure class="photo-card">
+          <img src="images/image.html/image2.html/photo 3.jpeg"
+               alt="हमारी प्यारी याद"
+               onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'">
+          <div class="photo-placeholder"><span>♡</span><p>एक और प्यारी याद</p></div>
+          <figcaption>Forever in my heart</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="wish-section reveal" id="wish">
+      <div class="section-label">03 — YOUR SPECIAL DAY</div>
+      <div class="wish-card">
+        <div class="cake">🎂</div>
+        <p class="script-text">Make a wish...</p>
+        <h2>तुम्हारी हर ख्वाहिश<br><span class="gold-text">पूरी हो जाए।</span></h2>
+        <p>नई खुशियाँ, नए सपने और ढेर सारा प्यार — यही मेरी दुआ है।</p>
+        <button class="outline-button" id="wishBtn">Send You A Wish ✨</button>
+        <p class="wish-result" id="wishResult" aria-live="polite"></p>
+      </div>
+    </section>
+
+    <section class="final-section reveal">
+      <div class="final-heart">♥</div>
+      <p class="script-text">One last thing...</p>
+      <h2>You are <span class="gold-text">Special.</span><br>Today & Always.</h2>
+      <p>Happy Birthday, Anjai! ❤️</p>
+      <a href="#home" class="text-link">Back to the beginning ↑</a>
+    </section>
+  </main>
+
+  <footer>
+    <p>CRAFTED WITH <span>♥</span> AND A LITTLE MAGIC</p>
+    <p>© <span id="year"></span> — A birthday surprise made just for you.</p>
+  </footer>
+
+  <div class="surprise-overlay" id="surpriseOverlay"
+       role="dialog" aria-modal="true" aria-labelledby="surpriseTitle" hidden>
+    <div class="surprise-box">
+      <button class="close-btn" id="closeSurprise" aria-label="बंद करें">×</button>
+      <div class="surprise-emoji">💝</div>
+      <p class="script-text">A wish from my heart</p>
+      <h2 id="surpriseTitle">Happy Birthday,<br><span class="gold-text" id="popupName">My Love</span>!</h2>
+      <p id="popupMessage">
+        तुम्हारी जिंदगी में हमेशा प्यार, सुकून और मुस्कान रहे।
+        तुम हमेशा खुश रहो और तुम्हारे सारे सपने पूरे हों।
+        आज का दिन तुम्हारे लिए बेहद खास हो। ❤️
+      </p>
+      <p class="popup-signature">With love, always ♡</p>
+      <button class="gold-button" id="celebrateBtn">Let's Celebrate! 🎉</button>
+    </div>
+  </div>
+
+  <canvas id="confettiCanvas" aria-hidden="true"></canvas>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
